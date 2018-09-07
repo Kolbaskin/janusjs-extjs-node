@@ -1,11 +1,11 @@
 {
-  "name": "extjs-node",
+  "name": "janusjs-extjs-node",
   "description": "ExtJS framework",
   "keywords": ["framework", "web", "extjs"],
   "version": "0.0.1",
-  "repository": "git@github.com:agebrock/extjs-node.git",
-  "author": "Agebrock <christoph.hagenbrock@googlemail.com>",
+  "repository": "git@github.com:Kolbaskin/janusjs-extjs-node.git",
+  "author": "Max Tushev <maximtushev@gmail.com>",
   "dependencies": {},
   "main": "index",
-  "engines": { "node": ">= 0.4.0" }
+  "engines": { "node": ">= 9.0.0" }
 }
