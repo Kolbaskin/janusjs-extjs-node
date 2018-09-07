@@ -1,7 +1,7 @@
-Untouched library including a little adapter to run on NodeJS 
+Untouched libarary with a little adapter to run on NodeJS 
 
 * No DOM required
-* uses the original Ext.require function (working dependency system) 
+* uses the original Ext.require funktion (working dependency system) 
 
 
 Installation:
@@ -9,7 +9,7 @@ npm install extjs-node
 
 
 Usage: 
-```js
+
 require("extjs-node");
 
 Ext.require(['Ext.data.Model','Ext.data.reader.Json','Ext.data.writer.Json',"Ext.data.proxy.Memory"]);
@@ -25,7 +25,6 @@ Ext.define("Mock", {
 
 var h = Mock.create({name:"Agebrock"});
 console.dir(h);
-````
 
 
 
